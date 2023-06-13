@@ -4,6 +4,8 @@
  */
 package okibangunpamungkas_2110010377;
 
+import java.util.ArrayList;
+
 
 public class OkiBangunPamungkas_2110010377 {
 
@@ -16,6 +18,15 @@ public class OkiBangunPamungkas_2110010377 {
     obj.setPassword("1");
     System.out.println("Username : "+ obj.getUsername());
     System.out.println("Password : "+ obj.getPassword());
+    
+    ArrayList<String> kodemember = new ArrayList<>();
+        kodemember.add("1A");
+        kodemember.add("1B");
+        kodemember.add("1C");
+        kodemember.add("1D");
+        
+        System.out.println(String.valueOf(kodemember.size()));
+        System.out.println(kodemember.get(3));
     }
     
 }

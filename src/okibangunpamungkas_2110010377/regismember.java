@@ -9,8 +9,8 @@ package okibangunpamungkas_2110010377;
  * @author LENOVO
  */
 public class regismember {
-    private String nama, alamat, daftar, batashabis, bayar, ktp;
-    private int idmember;
+    private String nama, alamat, daftar, batashabis, bayar, ktp, idmember;
+    
     
     public regismember(){
     
@@ -56,11 +56,11 @@ public class regismember {
         return this.bayar;
     }
     
-     public void setIdmember(int idmember){
+     public void setIdmember(String idmember){
         this.idmember = idmember;
     }
     
-    public int getIdmember(){
+    public String getIdmember(){
         return this.idmember;
     }
     

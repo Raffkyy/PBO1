@@ -5,7 +5,7 @@
 package okibangunpamungkas_2110010377;
 
 import java.util.ArrayList;
-
+import forms.formUtama;
 
 public class OkiBangunPamungkas_2110010377 {
 
@@ -27,6 +27,8 @@ public class OkiBangunPamungkas_2110010377 {
         
         System.out.println(String.valueOf(kodemember.size()));
         System.out.println(kodemember.get(3));
+        
+        new formUtama().setVisible(true);
     }
     
 }

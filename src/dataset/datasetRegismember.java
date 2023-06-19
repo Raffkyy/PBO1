@@ -53,7 +53,7 @@ public class datasetRegismember {
         return this.daftar;
     }
     
-     public void addBatarhabis(String value){
+     public void addBatashabis(String value){
         this.batashabis.add(value);
     }
     
